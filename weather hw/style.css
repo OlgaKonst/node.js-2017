@@ -1,0 +1,17 @@
+body { background-color: #FAEBD7;}
+.weather-forecast-item {
+    display: none;
+}
+.wrapper {
+    max-width: 800px;
+    max-height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+a.btn{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #116655;
+    border-radius: 5px;
+    color: #fff;
+}
