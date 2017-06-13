@@ -1,4 +1,4 @@
-body { background-color: #FAEBD7;}
+body { background-color: #f9f1e5}
 .weather-forecast-item {
     display: none;
 }
@@ -8,10 +8,35 @@ body { background-color: #FAEBD7;}
     margin: 0 auto;
     text-align: center;
 }
+
 a.btn{
+    display: inline-block;
     text-decoration: none;
     padding: 10px;
     background-color: #116655;
     border-radius: 5px;
     color: #fff;
+    margin-bottom: 20px;
 }
+.flex-block{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #f2dfc4;
+}
+.flex-block div {
+    padding: 5px;
+}
+/*
+.flex-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #FAEBD7;
+    flex-shrink: 0;
+}
+ */
