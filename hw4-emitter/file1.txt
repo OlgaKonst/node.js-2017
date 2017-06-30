@@ -1,0 +1,2 @@
+The file name of the current module. This is the resolved absolute path of the current module file.
+For a main program this is not necessarily the same as the file name used in the command line.
