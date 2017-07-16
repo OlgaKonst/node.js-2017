@@ -1,0 +1,28 @@
+{
+  "name": "node-js",
+  "version": "0.0.1",
+  "description": "homework NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "lint": "node ./node_modules/eslint/bin/eslint ./*.js **/*.js",
+    "lint:fix": "node ./node_modules/eslint/bin/eslint --fix ./*.js **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlgaKonst/node.js-2017.git"
+  },
+  "author": "Olha Konstanchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlgaKonst/node.js-2017/issues"
+  },
+  "homepage": "https://github.com/OlgaKonst/node.js-2017#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "express": "^4.15.3"
+  }
+}
